@@ -1,0 +1,14 @@
+platform :ios, '7.0'
+
+target 'Teamspace' do
+    
+    pod 'DZNEmptyDataSet'
+    
+    link_with 'Teamspace'
+
+end
+
+target 'TeamspaceTests' do
+
+end
+

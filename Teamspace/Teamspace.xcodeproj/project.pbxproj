@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC067721B30AAEF0069EA2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC067711B30AAEF0069EA2C /* main.m */; };
+		2FC067751B30AAEF0069EA2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC067741B30AAEF0069EA2C /* AppDelegate.m */; };
+		2FC067781B30AAEF0069EA2C /* Teamspace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FC067761B30AAEF0069EA2C /* Teamspace.xcdatamodeld */; };
+		2FC067801B30AAEF0069EA2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC0677F1B30AAEF0069EA2C /* Images.xcassets */; };
+		2FC067831B30AAEF0069EA2C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FC067811B30AAEF0069EA2C /* LaunchScreen.xib */; };
+		2FC0678F1B30AAEF0069EA2C /* TeamspaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0678E1B30AAEF0069EA2C /* TeamspaceTests.m */; };
+		2FF9189D1B33C06A00A9138F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9189C1B33C06A00A9138F /* LoginViewController.m */; };
+		2FF918A01B33C08500A9138F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF9189E1B33C08500A9138F /* MainWindow.xib */; };
+		2FF918A51B33C64300A9138F /* OTPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF918A41B33C64300A9138F /* OTPViewController.m */; };
+		2FF918A81B33C66500A9138F /* OTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF918A61B33C66500A9138F /* OTPViewController.xib */; };
+		2FF918AB1B33C68600A9138F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF918A91B33C68600A9138F /* LoginViewController.xib */; };
+		2FF918AE1B33CA1200A9138F /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF918AD1B33CA1200A9138F /* TaskViewController.m */; };
+		2FF918B11B33CA3300A9138F /* TaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF918AF1B33CA3300A9138F /* TaskViewController.xib */; };
+		2FF918B31B33D69400A9138F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF918B21B33D69400A9138F /* Default-568h@2x.png */; };
+		2FF918B51B33D6CD00A9138F /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF918B41B33D6CD00A9138F /* Default-667h@2x.png */; };
+		45673A8092D9D487B120B19F /* libPods-Teamspace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FADE4C7F9557D54F337BAE7 /* libPods-Teamspace.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FC067891B30AAEF0069EA2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC067641B30AAEF0069EA2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC0676B1B30AAEF0069EA2C;
+			remoteInfo = Teamspace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FC0676C1B30AAEF0069EA2C /* Teamspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teamspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC067701B30AAEF0069EA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC067711B30AAEF0069EA2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FC067731B30AAEF0069EA2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FC067741B30AAEF0069EA2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FC067771B30AAEF0069EA2C /* Teamspace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teamspace.xcdatamodel; sourceTree = "<group>"; };
+		2FC0677F1B30AAEF0069EA2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FC067821B30AAEF0069EA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2FC067881B30AAEF0069EA2C /* TeamspaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamspaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC0678D1B30AAEF0069EA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC0678E1B30AAEF0069EA2C /* TeamspaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamspaceTests.m; sourceTree = "<group>"; };
+		2FF9189B1B33C06A00A9138F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2FF9189C1B33C06A00A9138F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2FF9189F1B33C08500A9138F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2FF918A31B33C64300A9138F /* OTPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPViewController.h; sourceTree = "<group>"; };
+		2FF918A41B33C64300A9138F /* OTPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPViewController.m; sourceTree = "<group>"; };
+		2FF918A71B33C66500A9138F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/OTPViewController.xib; sourceTree = "<group>"; };
+		2FF918AA1B33C68600A9138F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LoginViewController.xib; sourceTree = "<group>"; };
+		2FF918AC1B33CA1200A9138F /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
+		2FF918AD1B33CA1200A9138F /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
+		2FF918B01B33CA3300A9138F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TaskViewController.xib; sourceTree = "<group>"; };
+		2FF918B21B33D69400A9138F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "images/Default-568h@2x.png"; sourceTree = "<group>"; };
+		2FF918B41B33D6CD00A9138F /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "images/Default-667h@2x.png"; sourceTree = "<group>"; };
+		6FADE4C7F9557D54F337BAE7 /* libPods-Teamspace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Teamspace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		762E5773DE54D9D1B859DAF5 /* Pods-Teamspace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamspace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teamspace/Pods-Teamspace.debug.xcconfig"; sourceTree = "<group>"; };
+		A6A6BC8BF55542EBA7C73D04 /* Pods-Teamspace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamspace.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teamspace/Pods-Teamspace.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC067691B30AAEF0069EA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45673A8092D9D487B120B19F /* libPods-Teamspace.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC067851B30AAEF0069EA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC067631B30AAEF0069EA2C = {
+			isa = PBXGroup;
+			children = (
+				2FC0676E1B30AAEF0069EA2C /* Teamspace */,
+				2FC0678B1B30AAEF0069EA2C /* TeamspaceTests */,
+				2FC0676D1B30AAEF0069EA2C /* Products */,
+				DF7B37C59BAD3378235B9ABB /* Pods */,
+				B2AC541BD02251C71E9F8407 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC0676D1B30AAEF0069EA2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0676C1B30AAEF0069EA2C /* Teamspace.app */,
+				2FC067881B30AAEF0069EA2C /* TeamspaceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC0676E1B30AAEF0069EA2C /* Teamspace */ = {
+			isa = PBXGroup;
+			children = (
+				2FF918B61B33D6D400A9138F /* images */,
+				2FF918A91B33C68600A9138F /* LoginViewController.xib */,
+				2FF9189B1B33C06A00A9138F /* LoginViewController.h */,
+				2FF9189C1B33C06A00A9138F /* LoginViewController.m */,
+				2FF918A31B33C64300A9138F /* OTPViewController.h */,
+				2FF918A41B33C64300A9138F /* OTPViewController.m */,
+				2FF9189E1B33C08500A9138F /* MainWindow.xib */,
+				2FC067731B30AAEF0069EA2C /* AppDelegate.h */,
+				2FC067741B30AAEF0069EA2C /* AppDelegate.m */,
+				2FF918A61B33C66500A9138F /* OTPViewController.xib */,
+				2FC0677F1B30AAEF0069EA2C /* Images.xcassets */,
+				2FC067811B30AAEF0069EA2C /* LaunchScreen.xib */,
+				2FC067761B30AAEF0069EA2C /* Teamspace.xcdatamodeld */,
+				2FC0676F1B30AAEF0069EA2C /* Supporting Files */,
+				2FF918AC1B33CA1200A9138F /* TaskViewController.h */,
+				2FF918AD1B33CA1200A9138F /* TaskViewController.m */,
+				2FF918AF1B33CA3300A9138F /* TaskViewController.xib */,
+			);
+			path = Teamspace;
+			sourceTree = "<group>";
+		};
+		2FC0676F1B30AAEF0069EA2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC067701B30AAEF0069EA2C /* Info.plist */,
+				2FC067711B30AAEF0069EA2C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FC0678B1B30AAEF0069EA2C /* TeamspaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0678E1B30AAEF0069EA2C /* TeamspaceTests.m */,
+				2FC0678C1B30AAEF0069EA2C /* Supporting Files */,
+			);
+			path = TeamspaceTests;
+			sourceTree = "<group>";
+		};
+		2FC0678C1B30AAEF0069EA2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0678D1B30AAEF0069EA2C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FF918B61B33D6D400A9138F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2FF918B41B33D6CD00A9138F /* Default-667h@2x.png */,
+				2FF918B21B33D69400A9138F /* Default-568h@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		B2AC541BD02251C71E9F8407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FADE4C7F9557D54F337BAE7 /* libPods-Teamspace.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF7B37C59BAD3378235B9ABB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				762E5773DE54D9D1B859DAF5 /* Pods-Teamspace.debug.xcconfig */,
+				A6A6BC8BF55542EBA7C73D04 /* Pods-Teamspace.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC0676B1B30AAEF0069EA2C /* Teamspace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC067921B30AAEF0069EA2C /* Build configuration list for PBXNativeTarget "Teamspace" */;
+			buildPhases = (
+				0A26C8D436F5B6A1288F92E2 /* Check Pods Manifest.lock */,
+				2FC067681B30AAEF0069EA2C /* Sources */,
+				2FC067691B30AAEF0069EA2C /* Frameworks */,
+				2FC0676A1B30AAEF0069EA2C /* Resources */,
+				4874272C46CEDB375C655D3A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teamspace;
+			productName = Teamspace;
+			productReference = 2FC0676C1B30AAEF0069EA2C /* Teamspace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FC067871B30AAEF0069EA2C /* TeamspaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC067951B30AAEF0069EA2C /* Build configuration list for PBXNativeTarget "TeamspaceTests" */;
+			buildPhases = (
+				2FC067841B30AAEF0069EA2C /* Sources */,
+				2FC067851B30AAEF0069EA2C /* Frameworks */,
+				2FC067861B30AAEF0069EA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC0678A1B30AAEF0069EA2C /* PBXTargetDependency */,
+			);
+			name = TeamspaceTests;
+			productName = TeamspaceTests;
+			productReference = 2FC067881B30AAEF0069EA2C /* TeamspaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC067641B30AAEF0069EA2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Teamspace;
+				TargetAttributes = {
+					2FC0676B1B30AAEF0069EA2C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					2FC067871B30AAEF0069EA2C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 2FC0676B1B30AAEF0069EA2C;
+					};
+				};
+			};
+			buildConfigurationList = 2FC067671B30AAEF0069EA2C /* Build configuration list for PBXProject "Teamspace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC067631B30AAEF0069EA2C;
+			productRefGroup = 2FC0676D1B30AAEF0069EA2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC0676B1B30AAEF0069EA2C /* Teamspace */,
+				2FC067871B30AAEF0069EA2C /* TeamspaceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC0676A1B30AAEF0069EA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF918A81B33C66500A9138F /* OTPViewController.xib in Resources */,
+				2FF918A01B33C08500A9138F /* MainWindow.xib in Resources */,
+				2FF918B11B33CA3300A9138F /* TaskViewController.xib in Resources */,
+				2FF918AB1B33C68600A9138F /* LoginViewController.xib in Resources */,
+				2FC067831B30AAEF0069EA2C /* LaunchScreen.xib in Resources */,
+				2FF918B51B33D6CD00A9138F /* Default-667h@2x.png in Resources */,
+				2FF918B31B33D69400A9138F /* Default-568h@2x.png in Resources */,
+				2FC067801B30AAEF0069EA2C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC067861B30AAEF0069EA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A26C8D436F5B6A1288F92E2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4874272C46CEDB375C655D3A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teamspace/Pods-Teamspace-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC067681B30AAEF0069EA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC067751B30AAEF0069EA2C /* AppDelegate.m in Sources */,
+				2FC067781B30AAEF0069EA2C /* Teamspace.xcdatamodeld in Sources */,
+				2FF918A51B33C64300A9138F /* OTPViewController.m in Sources */,
+				2FF918AE1B33CA1200A9138F /* TaskViewController.m in Sources */,
+				2FC067721B30AAEF0069EA2C /* main.m in Sources */,
+				2FF9189D1B33C06A00A9138F /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC067841B30AAEF0069EA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0678F1B30AAEF0069EA2C /* TeamspaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FC0678A1B30AAEF0069EA2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC0676B1B30AAEF0069EA2C /* Teamspace */;
+			targetProxy = 2FC067891B30AAEF0069EA2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FC067811B30AAEF0069EA2C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC067821B30AAEF0069EA2C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		2FF9189E1B33C08500A9138F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF9189F1B33C08500A9138F /* Base */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2FF918A61B33C66500A9138F /* OTPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF918A71B33C66500A9138F /* Base */,
+			);
+			name = OTPViewController.xib;
+			sourceTree = "<group>";
+		};
+		2FF918A91B33C68600A9138F /* LoginViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF918AA1B33C68600A9138F /* Base */,
+			);
+			name = LoginViewController.xib;
+			sourceTree = "<group>";
+		};
+		2FF918AF1B33CA3300A9138F /* TaskViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF918B01B33CA3300A9138F /* Base */,
+			);
+			name = TaskViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FC067901B30AAEF0069EA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FC067911B30AAEF0069EA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC067931B30AAEF0069EA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 762E5773DE54D9D1B859DAF5 /* Pods-Teamspace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Teamspace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FC067941B30AAEF0069EA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A6BC8BF55542EBA7C73D04 /* Pods-Teamspace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Teamspace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FC067961B30AAEF0069EA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TeamspaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teamspace.app/Teamspace";
+			};
+			name = Debug;
+		};
+		2FC067971B30AAEF0069EA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TeamspaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teamspace.app/Teamspace";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC067671B30AAEF0069EA2C /* Build configuration list for PBXProject "Teamspace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC067901B30AAEF0069EA2C /* Debug */,
+				2FC067911B30AAEF0069EA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC067921B30AAEF0069EA2C /* Build configuration list for PBXNativeTarget "Teamspace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC067931B30AAEF0069EA2C /* Debug */,
+				2FC067941B30AAEF0069EA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC067951B30AAEF0069EA2C /* Build configuration list for PBXNativeTarget "TeamspaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC067961B30AAEF0069EA2C /* Debug */,
+				2FC067971B30AAEF0069EA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FC067761B30AAEF0069EA2C /* Teamspace.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FC067771B30AAEF0069EA2C /* Teamspace.xcdatamodel */,
+			);
+			currentVersion = 2FC067771B30AAEF0069EA2C /* Teamspace.xcdatamodel */;
+			path = Teamspace.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FC067641B30AAEF0069EA2C /* Project object */;
+}

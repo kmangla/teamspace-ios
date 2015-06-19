@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
+            <connections>
+                <outlet property="delegate" destination="RdT-8K-Wdb" id="blz-E8-k41"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <window opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Na2-4i-xf1">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        </window>
+        <customObject id="RdT-8K-Wdb" customClass="AppDelegate">
+            <connections>
+                <outlet property="appViewController" destination="MEo-nq-b5i" id="qXf-ca-Wvp"/>
+                <outlet property="loginNavigationViewController" destination="3kG-0Y-lUy" id="u0M-Nh-T1q"/>
+                <outlet property="window" destination="Na2-4i-xf1" id="pwN-ez-8Us"/>
+            </connections>
+        </customObject>
+        <navigationController id="3kG-0Y-lUy">
+            <navigationBar key="navigationBar" contentMode="scaleToFill" id="LDf-3x-ps8">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </navigationBar>
+            <viewControllers>
+                <viewController id="Ulz-yW-ZsD" customClass="LoginViewController">
+                    <navigationItem key="navigationItem" title="Login" id="iUi-y4-CPS"/>
+                </viewController>
+            </viewControllers>
+        </navigationController>
+        <tabBarController id="MEo-nq-b5i">
+            <nil key="simulatedBottomBarMetrics"/>
+            <tabBar key="tabBar" contentMode="scaleToFill" id="yw4-Ue-VUS">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tabBar>
+            <viewControllers>
+                <viewController id="fyO-6g-cOC" customClass="TaskViewController">
+                    <tabBarItem key="tabBarItem" title="Task" image="Clipboard-50" id="Uev-Yv-cxf"/>
+                </viewController>
+                <viewController id="fPX-a8-pZm">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xwt-TZ-nq6"/>
+                        <viewControllerLayoutGuide type="bottom" id="fO3-Ah-Dkn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G5q-Cq-Etv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Employee" image="Workers-50" id="LjB-9p-71F"/>
+                </viewController>
+            </viewControllers>
+        </tabBarController>
+    </objects>
+    <resources>
+        <image name="Clipboard-50" width="50" height="50"/>
+        <image name="Workers-50" width="50" height="50"/>
+    </resources>
+</document>
