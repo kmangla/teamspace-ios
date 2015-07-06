@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2C9F901B49007F00F6A77D /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C9F8F1B49007F00F6A77D /* Constants.m */; };
 		2FC067721B30AAEF0069EA2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC067711B30AAEF0069EA2C /* main.m */; };
 		2FC067751B30AAEF0069EA2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC067741B30AAEF0069EA2C /* AppDelegate.m */; };
 		2FC067781B30AAEF0069EA2C /* Teamspace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FC067761B30AAEF0069EA2C /* Teamspace.xcdatamodeld */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F2C9F8F1B49007F00F6A77D /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		2F4E153A1B47A70B00B1DE03 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		2FC0676C1B30AAEF0069EA2C /* Teamspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teamspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC067701B30AAEF0069EA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FC067711B30AAEF0069EA2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				2FF918AC1B33CA1200A9138F /* TaskViewController.h */,
 				2FF918AD1B33CA1200A9138F /* TaskViewController.m */,
 				2FF918AF1B33CA3300A9138F /* TaskViewController.xib */,
+				2F4E153A1B47A70B00B1DE03 /* Constants.h */,
+				2F2C9F8F1B49007F00F6A77D /* Constants.m */,
 			);
 			path = Teamspace;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				TargetAttributes = {
 					2FC0676B1B30AAEF0069EA2C = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = V2SVZ48A33;
 					};
 					2FC067871B30AAEF0069EA2C = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -324,6 +330,7 @@
 				2FF918A51B33C64300A9138F /* OTPViewController.m in Sources */,
 				2FF918AE1B33CA1200A9138F /* TaskViewController.m in Sources */,
 				2FC067721B30AAEF0069EA2C /* main.m in Sources */,
+				2F2C9F901B49007F00F6A77D /* Constants.m in Sources */,
 				2FF9189D1B33C06A00A9138F /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,9 +482,12 @@
 			baseConfigurationReference = 762E5773DE54D9D1B859DAF5 /* Pods-Teamspace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Teamspace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -486,9 +496,12 @@
 			baseConfigurationReference = A6A6BC8BF55542EBA7C73D04 /* Pods-Teamspace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Teamspace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

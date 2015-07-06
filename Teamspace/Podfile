@@ -3,7 +3,7 @@ platform :ios, '7.0'
 target 'Teamspace' do
     
     pod 'DZNEmptyDataSet'
-    
+    pod "AFNetworking", "~> 2.0" 
     link_with 'Teamspace'
 
 end

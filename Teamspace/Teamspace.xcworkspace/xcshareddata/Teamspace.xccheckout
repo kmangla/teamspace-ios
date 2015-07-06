@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DDAA5551-3BB4-4869-934B-3D7ECD670492</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Teamspace</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF3DE2B85C10F21D4467409F5B89A86280805A3E</key>
+		<string>https://github.com/kmangla/teamspace-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Teamspace/Teamspace.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF3DE2B85C10F21D4467409F5B89A86280805A3E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kmangla/teamspace-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF3DE2B85C10F21D4467409F5B89A86280805A3E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF3DE2B85C10F21D4467409F5B89A86280805A3E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>teamspace-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

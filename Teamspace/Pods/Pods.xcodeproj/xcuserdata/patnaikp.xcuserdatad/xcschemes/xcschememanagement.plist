@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-Teamspace-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Teamspace-DZNEmptyDataSet.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4D6B594BA63BADBC461EB9D5</key>
+		<key>24DC1DAB26E2DED3BAB21527</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FCE75FFB2E1D06E654A85D4C</key>
+		<key>61D680164326584FFAE97973</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5028516C5DDB15764027FBA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

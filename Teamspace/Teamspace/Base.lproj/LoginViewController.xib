@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
             <connections>
+                <outlet property="phoneNumber" destination="ASv-6s-ewM" id="2CS-OA-iZA"/>
                 <outlet property="view" destination="iN0-l3-epB" id="D6r-7A-K3p"/>
             </connections>
         </placeholder>
@@ -21,7 +22,7 @@
                         <constraint firstAttribute="height" constant="70" id="uMR-zZ-hGG"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvk-1w-vW2">
                     <rect key="frame" x="234" y="213" width="130" height="30"/>
